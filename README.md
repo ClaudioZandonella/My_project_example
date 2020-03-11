@@ -69,6 +69,8 @@ To download the project:
 1. Open the R project `My_project_example.Rproj`. You can click on it or open using Rstudio File->Open Project
 2. Open the file [Analysis.R](Analysis.R) and run each line of the code in order
 
+! The simulation run in parallel. This can be a problem in Windows.
+
 ## License
 
 This project is licensed under the terms of the [MIT License](/LICENSE.md)
