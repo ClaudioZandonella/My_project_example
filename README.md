@@ -1,5 +1,7 @@
 # My_project_example
 
+[![DOI](https://sandbox.zenodo.org/badge/DOI/10.5072/zenodo.507880.svg)](https://doi.org/10.5072/zenodo.507880)
+
 Version 0.1.0
 
 Example of a correct project workflow
