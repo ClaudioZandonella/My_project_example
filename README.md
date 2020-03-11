@@ -5,6 +5,16 @@ Version 0.1.0
 Example of a correct project workflow
 
 
+## Description
+
+This R-project contains all the material and the scripts used to conduct a simulation study regarding the influence of prior settings in a bayesian analysis. We considered the Structural Equation Model (SEM) pesented below:
+
+![](docs/Figure/Plot_model.png)
+
+This simulation simulation considered different prior setting as well as sifferent sample sizes. For more theoretical information and results interpretation consider the [related article](https://github.com/ClaudioZandonella/SIS_2020/blob/master/Documents/SIS_paper/author.pdf). 
+
+
+
 ## Project organization
 
 ```
@@ -28,28 +38,8 @@ Example of a correct project workflow
 │   ├── figures        <- Figures for the manuscript or reports (PG)
 │   └── output         <- Other output for the manuscript or reports (PG)
 └── src                <- Source code for this project (HW)
-
 ```
 
-
-
-## Description
-
-This R-project contains all the material and the scripts used to conduct a simulation study regarding the influence of prior settings in a bayesian analysis. We considered the Structural Equation Model (SEM) pesented below:
-
-![](docs/Figure/Plot_model.png)
-
-Simulation considered different prior setting as well as sifferent sample sizes.
-
-To run the analysis, you need the following  r packages:
-
-- `lavaan`
-- `blavaan`
-- `future.apply`
-- `MASS`
-- `tidyverse`
-
-If you don't have these packages already installed run the command `install.packages(<name_package>)`.
 The main file to run the analysis is [Analysis.R](Analysis.R).
 
 In `src/`folder you can find scripts with settings and functions used in the analysis:
@@ -59,6 +49,25 @@ In `src/`folder you can find scripts with settings and functions used in the ana
 - [Auxiliary_functions.R](src/Auxiliary_functions.R) contains other functions used in the analysis.
 
 In `data/raw/` folder you find the data with 1000 simulated cases that is used to plot results.
+
+
+## Installation instruction
+
+To download the project:
+
+1. Use your terminal to move in the place where you want to download the project folder using the command `cd <folder/path>`
+2. Run the code `git clone https://github.com/ClaudioZandonella/My_project_example`
+3. You need R and Rstudio to be installed in your machine and the following r packages, If you don't have these packages already installed run the command `install.packages(<name_package>)`
+    - `lavaan`
+    - `blavaan`
+    - `future.apply`
+    - `MASS`
+    - `tidyverse`
+
+## Run the analysis
+
+1. Open the R project `My_project_example.Rproj`. You can click on it or open using Rstudio File->Open Project
+2. Open the file [Analysis.R](Analysis.R) and run each line of the code in order
 
 ## License
 
