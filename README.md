@@ -65,6 +65,7 @@ To download the project:
     - `future.apply`
     - `MASS`
     - `tidyverse`
+    - `tictoc`
 
 ## Run the analysis
 
