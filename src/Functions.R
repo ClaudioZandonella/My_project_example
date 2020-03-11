@@ -10,14 +10,19 @@
 
 #----    sample_population    ----
 
-# Sample <n_sample> observations of variables NEUROT, METACOGN, and SLEEP.
-# Covariance structure is defined according to example model.
-# The function returns a data.frame with columns NEUROT, METACOGN, and SLEEP.
 
 sample_population <- function(n_sample=5e4){
+  #' sample_population
+  #'
+  #' Sample \code{n_sample} observations of variables NEUROT, METACOGN, and SLEEP.
+  #' Covariance structure is defined according to example model.
+  #'
+  #' @param n_sample an integer indicating the required number of observations
+  #' @return Returns a dataframe with values for NEUROT, METACOGN, and SLEEP.
 
   # CREATE SIMULATED POPULATION
   # (from real data on 122 people)
+
   Sigma<-lav_matrix_lower2full(c(
     + 1,
     + .205, 1,
